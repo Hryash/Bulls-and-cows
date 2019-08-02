@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Neucha";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/neucha/neucha-v11-cyrillic_latin-regular.eot"); /* IE9 Compat Modes */
+    src: local('Neucha'),
+         url("./fonts/neucha/neucha-v11-cyrillic_latin-regular.eot") format("embedded-opentype"), /* IE6-IE8 */
+         url("./fonts/neucha/neucha-v11-cyrillic_latin-regular.woff2") format("woff2"), /* Super Modern Browsers */
+         url("./fonts/neucha/neucha-v11-cyrillic_latin-regular.woff") format("woff"), /* Modern Browsers */
+         url("./fonts/neucha/neucha-v11-cyrillic_latin-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+         url("./fonts/neucha/neucha-v11-cyrillic_latin-regular.svg") format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./fonts/arimo/arimo-v13-cyrillic_latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Arimo Regular'), local('Arimo-Regular'),
+         url('./fonts/arimo/arimo-v13-cyrillic_latin-regular.eot') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/arimo/arimo-v13-cyrillic_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/arimo/arimo-v13-cyrillic_latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/arimo/arimo-v13-cyrillic_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/arimo/arimo-v13-cyrillic_latin-regular.svg') format('svg'); /* Legacy iOS */
+}
+
+body{
+    background-color: rgb(168, 224, 224);
+    background-image: url(back.jpg);
+    background-size: 100%;
+    font-family: "Neucha";
+    font-size: 18px;
+}
+
+h1, h2{
+    font-family: "Neucha";
+}
+
+hr{
+    height: 2px;
+    border: none;
+    background-color: #8FBC8F;
+    width: 50%;
+}
+
+input::-webkit-outer-spin-button,  /*hide buttons in input*/
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input{
+    height: 22px;
+    border: 1px solid;
+    background-color: rgb(141, 212, 212);
+}
+
+table, tr, td{
+    border: 2px solid;
+    border-collapse: collapse;
+    width: 260px;
+    text-align: center;
+    background-color: #8FBC8F;
+}
+
+.flex-container{
+    display: -webkit-flex; 
+    -webkit-justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainitem{
+    display: flex; 
+    align-items: center;
+}
+
+.item{
+    padding-top: 5px;
+}
+.sideitem{			   
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-basis: 260px;
+}
+
+button{
+    border-radius: 5px;
+    width: 110px;
+    border-color: gray;
+    background-color: #8FBC8F;
+    font-family: "Arimo";
+}
