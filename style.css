@@ -33,18 +33,8 @@ details, summary{
     outline:none;
 }
 
-summary::-webkit-details-marker {
-    display: none;
-}
-
-summary:before {
-    content: url(triangle1.png);
-    margin-right: 5px;
-}
-
-details[open] summary:before{
-    content: url(triangle2.png);
-    margin-right: 5px;
+summary::-webkit-details-marker{
+    color: #8FBC8F;
 }
 
 body{
