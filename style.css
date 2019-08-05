@@ -24,6 +24,29 @@
          url('./fonts/arimo/arimo-v13-cyrillic_latin-regular.svg') format('svg'); /* Legacy iOS */
 }
 
+summary{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+details, summary{
+    outline:none;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary:before {
+    content: url(triangle1.png);
+    margin-right: 5px;
+}
+
+details[open] summary:before{
+    content: url(triangle2.png);
+    margin-right: 5px;
+}
+
 body{
     background-color: rgb(168, 224, 224);
     background-image: url(back.jpg);
