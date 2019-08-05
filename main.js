@@ -60,6 +60,7 @@ $(document).ready(function(){
                     if(!num) {
                         break;
                     }
+                $("input").val("").change();
                 takeAGuess(winNum, num);
                     if(winNum == num){
                         alert("Вы выиграли!");
