@@ -64,6 +64,7 @@ $(document).ready(function(){
                 takeAGuess(winNum, num);
                     if(winNum == num){
                         alert("Вы выиграли!");
+                        $("input").prop("disabled",true);
                         break;
                     }
             }
