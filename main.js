@@ -47,6 +47,7 @@ $(document).ready(function(){
                     }
                 }
             $(".tab tr:last").after("<tr>" + "<td>" + attend + "</td>" + "<td>" + bulls + "</td>" + "<td>" + cows + "</td>" + "</tr>");
+            $("html,body").animate({scrollTop: document.body.scrollHeight},"slow");
             }
     }
     var winNum = makeANumber();
