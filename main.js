@@ -57,10 +57,10 @@ $(document).ready(function(){
             for(var i= 0; i < 1; i++){
                 $("div.errors").remove();
                 var num = $("input").val();
-                num = num.replace(/^\s+|\s+$/g, '');
-                    if(!num) {
-                        break;
-                    }
+                //num = num.replace(/^\s+|\s+$/g, '');
+                    //if(!num) {
+                        //break;
+                    //}
                 $("input").val("").change();
                 takeAGuess(winNum, num);
                     if(winNum == num){
