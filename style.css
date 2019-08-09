@@ -35,6 +35,15 @@
     cursor:pointer;
 }
 
+a { 
+    text-decoration: none;
+    color: black;
+} 
+
+a:hover{
+    color: #8FBC8F;
+}
+
 body{
     background-color: rgb(168, 224, 224);
     background-image: url(back.jpg);
