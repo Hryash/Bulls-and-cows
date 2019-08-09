@@ -74,4 +74,8 @@ $(document).ready(function(){
 $(".btn").click(function() {
     location.reload(true);
 });
+$(".spoiler_link").click(function(){
+    $(this).parent().children("div.spoiler_body").toggle("normal");
+    return false;
+   });
 });
