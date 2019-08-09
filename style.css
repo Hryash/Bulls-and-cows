@@ -24,13 +24,13 @@
          url('./fonts/arimo/arimo-v13-cyrillic_latin-regular.svg') format('svg'); /* Legacy iOS */
 }
 
-.spoiler_link {
+.spoiler_link{
     font-size: 26px;
     font-weight: bold;
     cursor: pointer;
 }
 
-.spoiler_body {
+.spoiler_body{
     display:none; 
     cursor:pointer;
 }
